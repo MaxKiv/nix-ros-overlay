@@ -131,7 +131,7 @@ in {
     url = "https://gitlab.com/lely_industries/lely-core.git";
     rev = "b63a0b6f79d3ea91dc221724b42dae49894449fc";
     fetchgitArgs = {
-      hash = "sha256-x9JCU2Ryssq424n90IzVOxixnvsoYTukyCOL3zNbwt4=";
+      hash = "sha256-d3ohyLf0+olGbaV5oUfuXNXd8wD6fKtM/0g2Ff28fio=";
       leaveDotGit = true;
     };
   };

@@ -10,7 +10,8 @@ buildRosPackage {
   src = fetchurl {
     url = "https://github.com/ros2-gbp/ros2_canopen-release/archive/release/jazzy/lely_core_libraries/0.3.0-1.tar.gz";
     name = "0.3.0-1.tar.gz";
-    sha256 = "cc70d86ab0f89bb9a5990422e785298a83aaf33cec30f5aa78caed6fda71d54d";
+    sha256 = "sha256-zHDYarD4m7mlmQQi54UpioOq8zzsMPWqeMrtb9px1U0=";
+    # sha256 = lib.fakeSha256;
   };
 
   buildType = "ament_cmake";
